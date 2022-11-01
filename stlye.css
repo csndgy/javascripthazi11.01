@@ -1,0 +1,28 @@
+.kozep {
+    margin-left: auto;
+    width: 5cm;
+    height: 1cm;
+}
+
+.elsodiv {
+    background-color: rgb(200, 191, 231);
+    width: 10cm;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5%;
+    font-size: large;
+}
+
+.masodikdiv {
+    background-color: rgb(200, 191, 231);
+    width: 10cm;
+    margin: auto;
+    text-align: center;
+    border-radius: 5%;
+    font-size: large;
+}
+
+h1{
+    margin: auto;
+}

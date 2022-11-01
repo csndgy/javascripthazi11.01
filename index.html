@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="stlye.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="elsodiv">
+        <form>
+            <label>Megrendelő neve:</label>
+            <input onfocus="PureFruits()" onblur="Halvany()" id="name" type="text" name="name" ><br> <br>
+            <label>Megrendelő címe:</label>
+            <input onfocus="PureFruits()" onblur="Halvany()" id="adress" type="text" name="adress" onfocus="PureFruits()"><br> <br>
+            <label>Megrendelő telefonszáma:</label>
+            <input onfocus="PureFruits()" onblur="Halvany()" id="tel" type="tel" name="tel" value="+36" onfocus="PureFruits()"><br> <br>
+            <button onclick="adatBanyasz()" class="kozep" type="button">Elküld</button>
+        </form>
+    </div>
+    <br>
+    <div class="masodikdiv">
+        <form>
+            <h1>Visszaigazolás!</h1>
+            <p id="a1">Név:?</p>
+            <p id="a2">Cím:?</p>
+            <p id="a3">Tel:?</p>
+        </form>
+    </div>
+</body>
+
+</html>
